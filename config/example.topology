@@ -1,0 +1,9 @@
+# nodeId parentId regionId kind IPv4 port
+# ID 0 is reserved for no parent; UINT32_MAX is reserved for Data Source.
+1 0 0 agr 127.0.0.1 27001
+10 1 10 agr 127.0.0.1 27010
+20 1 20 agr 127.0.0.1 27020
+11 10 11 agr 127.0.0.1 27011
+101 11 11 station 127.0.0.1 27101
+102 10 10 station 127.0.0.1 27102
+201 20 20 station 127.0.0.1 27201
